@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Components/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import contactBg from "../assets/contactbg.jpg";
 
 export default function Contact() {
   return (
@@ -19,28 +20,67 @@ export default function Contact() {
       </section>
 
       {/* Contact Info */}
-      <section className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 text-center justify-center">
-        <div className="bg-secondary rounded-lg shadow-lg h-30">
-          <h3 className="font-semibold text-xl mb-2">Address</h3>
-          <p className="text-gray-300">
-            📍 Dabhaich, Tisiauta, Vaishali, Bihar
-          </p>
-        </div>
-        <div className="bg-secondary rounded-lg shadow-lg h-30">
-          <h3 className="font-semibold text-xl mb-2">Phone</h3>
-          <p className="text-gray-300">📞 +91 75495 59247</p>
-        </div>
-        <div className="bg-secondary rounded-lg shadow-lg h-30">
-          <h3 className="font-semibold text-xl mb-2">WhatsApp</h3>
-          <a
-            href="https://wa.me/917549559247"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-green-500 text-3xl hover:text-green-600"
-            title="Chat with us on WhatsApp"
-          >
-            <FontAwesomeIcon icon={faWhatsapp} />
-          </a>
+      <section
+        className="relative bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${contactBg})` }}
+      >
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/60"></div>
+
+        <div className="relative max-w-7xl mx-auto px-6 py-24">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-14">
+            Get In Touch
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            {/* Address */}
+            <div
+              className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg 
+                      transition transform hover:-translate-y-2 hover:shadow-2xl"
+            >
+              <div className="text-4xl mb-4">📍</div>
+              <h3 className="font-semibold text-xl text-yellow-400 mb-2">
+                Address
+              </h3>
+              <p className="text-gray-200 text-sm leading-relaxed">
+                Dabhaich, Tisiauta,
+                <br /> Vaishali, Bihar
+              </p>
+            </div>
+
+            {/* Phone */}
+            <div
+              className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg 
+                      transition transform hover:-translate-y-2 hover:shadow-2xl"
+            >
+              <div className="text-4xl mb-4">📞</div>
+              <h3 className="font-semibold text-xl text-yellow-400 mb-2">
+                Phone
+              </h3>
+              <p className="text-gray-200 text-sm">+91 75495 59247</p>
+            </div>
+
+            {/* WhatsApp */}
+            <div
+              className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg 
+                      transition transform hover:-translate-y-2 hover:shadow-2xl"
+            >
+              <div className="text-4xl mb-4 text-green-400">
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </div>
+              <h3 className="font-semibold text-xl text-yellow-400 mb-2">
+                WhatsApp
+              </h3>
+              <a
+                href="https://wa.me/917549559247"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-400 hover:text-green-500 text-sm font-medium"
+              >
+                Chat with us
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -48,7 +48,11 @@ export default function Home() {
           <img
             src={sofaImg}
             alt="Wood & Aluminium Work"
-            className="w-full max-w-lg md:max-w-xl"
+            className="w-full max-w-lg md:max-w-xl
+               drop-shadow-[0_18px_28px_rgba(0,0,0,0.35)]
+               transition duration-300
+               hover:drop-shadow-[0_28px_45px_rgba(0,0,0,0.45)]
+               hover:-translate-y-1"
           />
         </div>
       </section>

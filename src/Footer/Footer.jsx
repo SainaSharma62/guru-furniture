@@ -26,8 +26,8 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-medium mb-3 text-center text-2xl md:text-xl">Quick Links</h3>
-            <ul className="space-y-2 text-sm text-center">
+            <h3 className="text-white font-medium mb-3 text-center text-2xl md:text-xl ">Quick Links</h3>
+            <ul className="space-y-2 text-sm text-center md:text-left">
               <li>
                 <Link
                   to="/"
@@ -73,14 +73,14 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white font-medium mb-3 text-center text-2xl md:text-xl ">Contact</h3>
-            <ul className="space-y-2 text-sm text-gray-400 text-center ">
+            <h3 className="text-white font-medium mb-3 text-center text-2xl md:text-xl md:text-left">Contact</h3>
+            <ul className="space-y-2 text-sm text-gray-400 text-center md:text-left">
               <li>📍 Dabhaich, Tisiauta, Vaishali, Bihar</li>
               <li>📞 +91 75495 59247</li>
             </ul>
 
             {/* Social Media Icons */}
-            <div className="flex gap-4 mt-4 text-center justify-center">
+            <div className="flex gap-4 mt-4 text-center justify-center md:justify-start">
               <a
                 href="https://www.facebook.com/"
                 target="_blank"
