@@ -42,98 +42,99 @@ export default function Services() {
       </section>
 
       {/* Services Cards */}
-     <section className="max-w-6xl mx-auto px-6 pb-20 grid md:grid-cols-2 gap-10 mt-10">
-  
-  {/* Wood Work */}
-  <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
-    <img
-      src={wood}
-      alt="Wood Work"
-      className="h-100 w-full object-cover
+      <section className="max-w-6xl mx-auto px-6 pb-20 grid md:grid-cols-2 gap-10 mt-10">
+        {/* Wood Work */}
+        <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
+          <img
+            src={wood}
+            alt="Wood Work"
+            className="h-100 w-full object-cover
                  transition-transform duration-500 ease-out
                  group-hover:scale-110"
-    />
-    <div className="p-6">
-      <h3 className="text-xl font-semibold text-yellow-400 mb-2">
-        Wood Work
-      </h3>
-      <p className="text-gray-300 text-sm">
-        Custom wooden furniture, doors, wardrobes, beds, kitchens and
-        interior solutions crafted with premium quality wood.
-      </p>
-    </div>
-  </div>
+          />
+          <div className="p-6">
+            <h3 className="text-xl font-semibold text-yellow-400 mb-2">
+              Wood Work
+            </h3>
+            <p className="text-gray-300 text-sm">
+              Custom wooden furniture, doors, wardrobes, beds, kitchens and
+              interior solutions crafted with premium quality wood.
+            </p>
+          </div>
+        </div>
 
-  {/* Aluminium Work */}
-  <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
-    <img
-      src={alu}
-      alt="Aluminium Work"
-      className="h-100 w-full object-cover
+        {/* Aluminium Work */}
+        <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
+          <img
+            src={alu}
+            alt="Aluminium Work"
+            className="h-100 w-full object-cover
                  transition-transform duration-500 ease-out
                  group-hover:scale-110"
-    />
-    <div className="p-6">
-      <h3 className="text-xl font-semibold text-yellow-400 mb-2">
-        Aluminium Work
-      </h3>
-      <p className="text-gray-300 text-sm">
-        Aluminium windows, partitions, cabinets and modern designs with
-        strong structure and long life.
-      </p>
-    </div>
-  </div>
+          />
+          <div className="p-6">
+            <h3 className="text-xl font-semibold text-yellow-400 mb-2">
+              Aluminium Work
+            </h3>
+            <p className="text-gray-300 text-sm">
+              Aluminium windows, partitions, cabinets and modern designs with
+              strong structure and long life.
+            </p>
+          </div>
+        </div>
 
-  {/* Modular Furniture */}
-  <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
-    <img
-      src={image}
-      alt="Modular Furniture"
-      className="h-100 w-full object-cover
+        {/* Modular Furniture */}
+        <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
+          <img
+            src={image}
+            alt="Modular Furniture"
+            className="h-100 w-full object-cover
                  transition-transform duration-500 ease-out
                  group-hover:scale-110"
-    />
-    <div className="p-6">
-      <h3 className="text-xl font-semibold text-yellow-400 mb-2">
-        Modular Furniture
-      </h3>
-      <p className="text-gray-300 text-sm">
-        Modular kitchens, wardrobes, office furniture designed for modern
-        lifestyle and space optimization.
-      </p>
-    </div>
-  </div>
+          />
+          <div className="p-6">
+            <h3 className="text-xl font-semibold text-yellow-400 mb-2">
+              Modular Furniture
+            </h3>
+            <p className="text-gray-300 text-sm">
+              Modular kitchens, wardrobes, office furniture designed for modern
+              lifestyle and space optimization.
+            </p>
+          </div>
+        </div>
 
-  {/* Custom Design */}
-  <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
-    <img
-      src={interior}
-      alt="Custom Design"
-      className="h-100 w-full object-cover
+        {/* Custom Design */}
+        <div className="group bg-secondary rounded-lg overflow-hidden shadow-lg">
+          <img
+            src={interior}
+            alt="Custom Design"
+            className="h-100 w-full object-cover
                  transition-transform duration-500 ease-out
                  group-hover:scale-110"
-    />
-    <div className="p-6">
-      <h3 className="text-xl font-semibold text-yellow-400 mb-2">
-        Custom Design & Installation
-      </h3>
-      <p className="text-gray-300 text-sm">
-        Personalized designs as per your space, budget and complete
-        on-site installation support.
-      </p>
-    </div>
-  </div>
-
-</section>
+          />
+          <div className="p-6">
+            <h3 className="text-xl font-semibold text-yellow-400 mb-2">
+              Custom Design & Installation
+            </h3>
+            <p className="text-gray-300 text-sm">
+              Personalized designs as per your space, budget and complete
+              on-site installation support.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Why Choose Us */}
       <section className="bg-secondary py-16">
-         <h1 className="text-3xl md:text-4xl font-bold text-center mb-12">
-            Why <span className="text-yellow-400">Choose Us</span>
-          </h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          Why <span className="text-yellow-400">Choose Us</span>
+        </h1>
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
-         
-          <div className="bg-primary rounded-xl shadow-lg p-6">
+          <div
+            className="bg-primary rounded-xl shadow-lg p-6 border border-amber-50
+                transition-all duration-300 ease-in-out
+                hover:-translate-y-2 hover:scale-105 hover:shadow-2xl"
+          >
             <img
               src={qualityImg}
               alt="Premium Quality"
@@ -145,7 +146,11 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="bg-primary rounded-xl shadow-lg p-6">
+          <div
+            className="bg-primary rounded-xl shadow-lg p-6 border border-amber-50
+                transition-all duration-300 ease-in-out
+                hover:-translate-y-2 hover:scale-105 hover:shadow-2xl"
+          >
             <img
               src={team}
               alt="Experienced Team"
@@ -157,7 +162,11 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="bg-primary rounded-xl shadow-lg p-6">
+          <div
+            className="bg-primary rounded-xl shadow-lg p-6 border border-amber-50
+                transition-all duration-300 ease-in-out
+                hover:-translate-y-2 hover:scale-105 hover:shadow-2xl"
+          >
             <img
               src={deliveryImg}
               alt="On-Time Delivery"

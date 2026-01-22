@@ -47,7 +47,7 @@ export default function Gallery() {
       {/* Gallery Grid */}
       <section
         className="max-w-7xl mx-auto px-6 pb-20 mt-12
-                          grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+                          grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6"
       >
         {images.map((img, index) => (
           <div
