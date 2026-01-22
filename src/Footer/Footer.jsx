@@ -82,7 +82,7 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex gap-4 mt-4 text-center justify-center md:justify-start">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/ss7137862"
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-400 hover:text-blue-500 transition-colors"
@@ -90,7 +90,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faFacebookF} size="lg" />
               </a>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/ss7137862?igsh=MXFvMmdxbWp0M2gwcQ=="
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-400 hover:text-pink-500 transition-colors"

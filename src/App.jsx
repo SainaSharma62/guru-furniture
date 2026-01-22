@@ -3,11 +3,8 @@ import Footer from "./Footer/Footer";
 
 function App() {
   return (
-    <div>
-      {/* Yahan Header bhi aa sakta hai */}
-      
-      <Outlet />   {/* 👈 YAHAN pages render honge */}
-
+    <div>      
+      <Outlet />   
       <Footer />
     </div>
   );
